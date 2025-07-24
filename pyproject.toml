@@ -1,5 +1,5 @@
 [project]
-name = "python-repo-template"
+name = "ibm-wxdi"
 version = "0.0.1"
 description = "A template for Python projects"
 readme = "README.md"
@@ -8,6 +8,7 @@ authors = [ { name = "Giovanni Giacometti", email = "giovanni.giacometti5@gmail.
 requires-python = ">=3.12"
 dependencies = [
     "loguru>=0.7.3",
+    "requests>=2.32.3",
 ]
 
 [dependency-groups]
